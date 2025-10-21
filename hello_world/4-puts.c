@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: on cree la fonction main
+ * main: cree fonction main
  * puts: affiche du txt(comme printf)
  * Return: 0
  */

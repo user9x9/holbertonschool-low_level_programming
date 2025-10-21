@@ -1,5 +1,6 @@
 #include <stdio.h>
-/* Creer une fonction main vide
+/*
+ * Creer une fonction main vide
  * Retourne 0
  */
 int main(void)

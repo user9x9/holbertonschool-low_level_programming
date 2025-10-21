@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- * main - Entry point
- * Description - afficher du txt avec printf
+ * main - creation de la fonction main
+ * Description: affiche du text avec printf
  * return: 0
  */
 int main(void)

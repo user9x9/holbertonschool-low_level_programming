@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
+/**
  * main - Creation de la fonction
  * Description: Affiche du text avec printf
- * return: 0
+ * Return: 0
  */
 int main(void)
 {

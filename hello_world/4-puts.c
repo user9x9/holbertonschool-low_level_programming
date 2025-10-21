@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * Creer une fonction main vide
- * Description : puts affiche du texte
- * Retourne 0
+ * Create a main function void
+ * Description: this function prints a line with puts
+ * Return: 0
  */
 int main(void)
 {

@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  * Creer une fonction main vide
- * puts : affiche texte
+ * Description : puts affiche du texte
  * Retourne 0
  */
 int main(void)

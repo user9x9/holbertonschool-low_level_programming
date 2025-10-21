@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - creation de la fonction main
+ * main - entry point
  * Description: affiche du text avec printf
  * return: 0
  */

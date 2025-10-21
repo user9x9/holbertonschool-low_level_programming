@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Creation de la fonction main
- * Description: Montre si le nombre est positif, negatif ou egal a zero
+ * main - Determines if a number is positive, negative or zero
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,7 +13,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("%d\n", n);
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
@@ -21,9 +22,11 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else if (n < 0)
+	else
 	{
 		printf("%d is negative\n", n);
 	}
+
 	return (0);
 }
+

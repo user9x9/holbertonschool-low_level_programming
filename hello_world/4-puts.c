@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main: fonction main
- * puts: affiche du txt(comme printf)
+ * main - on cree la fonction main
+ * puts - affiche du txt(comme printf)
  * Return: 0
  */
 int main(void)

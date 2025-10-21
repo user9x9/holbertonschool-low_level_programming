@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - point dentree
+ * main - Entry point
  * Description - afficher du txt avec printf
  * return: 0
  */

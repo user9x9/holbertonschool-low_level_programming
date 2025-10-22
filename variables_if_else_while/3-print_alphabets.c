@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - Script qui ecrit alphabet en min et maj
  *
  * Return: 0

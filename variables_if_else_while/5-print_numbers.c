@@ -9,9 +9,9 @@
 int main(void)
 {
 	int nombres = 0;
-	while (nombres > 0 && nombres >= 9)
+	while (nombres <= 9)
 	{
-		printf(nombres);
+		printf("%d", nombres);
 		nombres++;
 	}
 	printf("\n");

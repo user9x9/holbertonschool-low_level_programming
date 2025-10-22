@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-/** main - Script qui ecrit alphabet en min et maj
- * 
+/** 
+ * main - Script qui ecrit alphabet en min et maj
+ *
  * Return: 0
  */
 
@@ -16,7 +17,7 @@ int main(void)
 		alphabet++;
 	}
 
-	while (alphabetMaj <= 'Z') 
+	while (alphabetMaj <= 'Z')
 	{
 		putchar(alphabetMaj);
                 alphabetMaj++;

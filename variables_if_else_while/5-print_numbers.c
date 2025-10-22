@@ -3,7 +3,7 @@
 /**
  * main - Affiche les chiffres de 0 a 9
  *
- * Return : 0
+ * Return: 0
  */
 
 int main(void)

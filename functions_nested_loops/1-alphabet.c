@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Script qui affiche l alphabet
+ * print_alphabet - Affiche l alphabet en min
  *
  * Return: 0
  */
@@ -17,9 +17,3 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-/*
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}*/

@@ -3,11 +3,14 @@
 #include "main.h"
 
 /**
- * jack_baueur = Affiche de 00:00 a 23:59
+ * jack_bauer - prints every minute of the day of Jack Bauer
  *
- * Return: Rien
+ * Description: Uses nested while loops and _putchar to print
+ *              all hours from 00:00 to 23:59.
  *
+ * Return: void
  */
+
 void jack_bauer(void)
 {
 	int heure = 0;

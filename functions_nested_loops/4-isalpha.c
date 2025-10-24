@@ -3,6 +3,8 @@
 #include "main.h"
 
 /**
+ * _islower - Check si cest une lettre min ou maj
+ *
  * @c: Le caractere a verifier
  *
  * Return: 1 si cest une lettre min ou maj sinn 0

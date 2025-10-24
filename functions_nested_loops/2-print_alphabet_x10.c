@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 
 	int compteur = 0;
 
-	while (compteur <= 10)
+	while (compteur < 10)
 	{
 		char alphabet = 'a';
 

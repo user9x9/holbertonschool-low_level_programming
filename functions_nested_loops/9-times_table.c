@@ -3,42 +3,30 @@
 #include "main.h"
 
 /**
- * times_table - Prints the table of 9
+ * print_times_table - Prints the 9 times table, starting from 0.
  *
+ * Description: This function prints the 9 times table in a formatted way,
+ * where each row represents a multiplier and each column represents
+ * the product of that multiplier with numbers from 0 to 9.
  *
+ * Return: void
  */
 
-void times_table(void)
+void print_times_table(void)
 {
-    int n1 = 0;
-    int n2;
-    int prod;
+	int i, j;
 
-    while (n1 < 10)
-    {
-        n2 = 0;
-
-        while (n2 < 10)
-        {
-            prod = n1 * n2;
-
-            if (n2 != 0)
-            {
-                _putchar(',');
-                _putchar(' ');
-
-			if (prod < 10)
-			_putchar(' ');
-	    	}
-
-		if (prod >= 10)
-			_putchar((prod / 10) + '0');
-
-			_putchar((prod % 10) + '0');
-
-			n2++;
+	for (i = 0; i < 10; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			printf("%d", i * j);
+			if (j < 9)
+			{
+				printf(", ");
+			}
 		}
-		_putchar('\n');
-		n1++;
+		printf("\n");
 	}
 }
+

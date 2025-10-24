@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- * _islower - Affiche 1 si c est min sinon il affiche 0
+ * _islower - Check si le caarctere est min
  *
- * Return: 0
+ * Return: 1 si le caractere est min sinon 0
  */
 
 int _islower(int c)

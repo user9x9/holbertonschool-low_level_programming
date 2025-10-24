@@ -5,7 +5,7 @@
 /**
  * _islower - Affiche 1 si c est min sinon il affiche 0
  *
- * Return: 0 
+ * Return: 0
  */
 
 int _islower(int c)

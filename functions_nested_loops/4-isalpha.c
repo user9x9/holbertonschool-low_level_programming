@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _islower - Check if a character is an alphabetic letter
+ * _isalpha - Check if a character is an alphabetic letter
  *
  * @c: The character to check
  *

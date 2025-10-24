@@ -3,11 +3,11 @@
 #include "main.h"
 
 /**
- * _islower - Check si cest une lettre min ou maj
+ * _islower - Check if a character is an alphabetic letter
  *
- * @c: Le caractere a checker
+ * @c: The character to check
  *
- * Return: 1 si cest une lettre min ou maj sinn 0
+ * Return: 1 if c is a letter (lowercase or uppercase),0 otherwise
  */
 
 int _isalpha(int c)

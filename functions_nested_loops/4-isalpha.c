@@ -5,7 +5,7 @@
 /**
  * _islower - Check si cest une lettre min ou maj
  *
- * @c: Le caractere a verifier
+ * @c: Le caractere a checker
  *
  * Return: 1 si cest une lettre min ou maj sinn 0
  */

@@ -14,19 +14,35 @@
 
 void times_table(void)
 {
-	int i, j;
+	int i, j, e;
 
 	for (i = 0; i < 10; i++)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			printf("%d", i * j);
-			if (j < 9)
+			e = i * j;
+
+			if (j != 0)
 			{
-				printf(", ");
-			}
+				_putchar(',');
+				_putchar(' ');
+
+				if (e < 10)
+				{
+					_putchar(' ');
+			}		}
+
+				if (e >= 10)
+				{
+					_putchar((e / 10) + '0');
+					_putchar((e % 10) + '0');
+				}
+				else 
+				{
+					_putchar(e + '0');
+				}
+			
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 }
-

@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * print_times_table - Prints the 9 times table, starting from 0.
+ * times_table - Prints the 9 times table, starting from 0.
  *
  * Description: This function prints the 9 times table in a formatted way,
  * where each row represents a multiplier and each column represents
@@ -12,7 +12,7 @@
  * Return: void
  */
 
-void print_times_table(void)
+void times_table(void)
 {
 	int i, j;
 

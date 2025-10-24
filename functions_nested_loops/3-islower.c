@@ -4,7 +4,7 @@
 
 /**
  * _islower - Check si le caarctere est min
- * @param c: Le caractere a verifier
+ * @c: Le caractere a verifier
  * Return: 1 si le caractere est min sinon 0
  */
 

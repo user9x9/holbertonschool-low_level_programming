@@ -37,11 +37,10 @@ void times_table(void)
 					_putchar((e / 10) + '0');
 					_putchar((e % 10) + '0');
 				}
-				else 
+				else
 				{
 					_putchar(e + '0');
 				}
-			
 		}
 		_putchar('\n');
 	}

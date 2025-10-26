@@ -6,7 +6,7 @@
  * add - Ajoute deux entiers et retourne le resultat
  *
  * @a: Premier entier
- * 
+ *
  * @b: Deuxieme entier
  *
  * Return: a + b

@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - test de la fonction add
- * Return: Always 0
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 int main(void)
 {

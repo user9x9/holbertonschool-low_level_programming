@@ -12,11 +12,7 @@
  * Return: a + b
  */
 
-int add(int, int)
+int add(int a, int b)
 {
-	int a = 0;
-
-	int b = 0;
-
 	return (a + b);
 }

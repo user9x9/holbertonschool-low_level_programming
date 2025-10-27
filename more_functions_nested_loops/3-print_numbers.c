@@ -3,9 +3,8 @@
 #include "main.h"
 
 /**
- * print_numbers - Affiche les nombres de 0 jusqua 9
+ * print_numbers - Prints the numbers from 0 to 9
  *
- * @a: La variable qui contient le premier nombre
  *
  * Return: void
  */

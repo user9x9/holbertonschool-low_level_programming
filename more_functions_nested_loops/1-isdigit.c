@@ -11,9 +11,7 @@
  */
 int _isdigit(int n)
 {
-	int lastDigit = n % 10;
-
-	if (lastDigit >= 0 && lastDigit <= 9)
+	if (n >= 0 && n <= 9)
 	{
 		return (1);
 	}

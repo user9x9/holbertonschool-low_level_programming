@@ -6,12 +6,12 @@
  *
  * @n: The number to check
  *
- * Return: the value of the last digit
+ * Return: 1 if c is a digit, 0 otherwise
  *
  */
-int _isdigit(int n)
+int _isdigit(int c)
 {
-	if (n >= 0 && n <= 9)
+	if (c >= 0 && c <= 9)
 	{
 		return (1);
 	}

@@ -17,10 +17,10 @@ void print_most_numbers(void)
 	{
 		if (a == 1 || a == 3)
 		{
+			_putchar(a + '0');
 			a = a + 2;
 		}
 		_putchar(a + '0');
 		a++;
 	}
-	_putchar('\n');
 }

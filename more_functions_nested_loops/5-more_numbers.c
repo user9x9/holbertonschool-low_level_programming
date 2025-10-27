@@ -8,14 +8,13 @@ void more_numbers(void)
 	int b;
 
 
-	while (a <= 10)
+	while (a < 10)
 	{
 		b = 0;
 
 		while (b <= 14)
 		{
-			b++;
-
+			
 			if (b >= 10)
 			{
 				_putchar('1');

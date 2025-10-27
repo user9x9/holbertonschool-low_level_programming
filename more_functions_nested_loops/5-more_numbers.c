@@ -3,7 +3,7 @@
 #include "main.h"
 /**
  * more_numbers - Fonction qui affiche 10fois de 0 a 14
- * 
+ *
  * Return:void
  *
  */

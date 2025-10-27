@@ -3,7 +3,9 @@
 #include "main.h"
 
 /**
- * print_line - Affiche autant de fois n que _
+ * print_line - Affiche _ autant de fois que le nombre n
+ *
+ * @n: la variable avec une  valeur inconnue
  *
  * Return: void
  *

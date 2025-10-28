@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Affiche de 1 a 100 et pr les multiples de 3 
+ * main - Affiche de 1 a 100 et pr les multiples de 3
  * il affiche Fizz et pr multiples de 5 Buzz et si c'est les
  * deux alors FizzBuzz
  *
@@ -30,7 +30,7 @@ int main(void)
 			printf(" Buzz");
 		}
 
-		else 
+		else
 		{
 			printf(" %d", a);
 		}

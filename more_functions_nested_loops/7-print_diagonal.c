@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 
+/**
+ * print_diagonal - Function that prints a diagonal
+ *
+ * Return: void
+ */
+
 void print_diagonal(int n)
 {
 	int a = 0;
@@ -12,7 +18,7 @@ void print_diagonal(int n)
 	}
 
 	while (a < n)
-	{	
+	{
 		b = 0;
 
 		while (b < a)

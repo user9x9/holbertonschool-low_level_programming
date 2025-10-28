@@ -23,8 +23,12 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		printf(" ");
-		printf("%d", a);
+
+		else 
+		{
+			printf("%d", a);
+		}
+
 		a++;
 	}
 	printf("\n");

@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * print_triangle - Function that prints a square
+ * print_triangle - Function that prints a triangle
  *
- * @size: Number of times the character # should be printed
+ * @size: Size of the triangle
  *
  * Return: void
  */
@@ -13,6 +13,7 @@ void print_triangle(int size)
 {
 	int a = 0;
 	int b = 0;
+	int c = 0;
 
 	if (size <= 0)
 	{
@@ -25,9 +26,18 @@ void print_triangle(int size)
 
 		while (b < size)
 		{
-			_putchar('#');
+			_putchar(' ');
 			b++;
 		}
+
+		c = 0;
+		
+		while (c < a)
+		{
+			_putchar('#');
+			c++;
+		}
+
 		_putchar('\n');
 		a++;
 	}

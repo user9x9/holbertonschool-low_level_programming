@@ -4,6 +4,8 @@
 /**
  * print_diagonal - Function that prints a diagonal
  *
+ * @n: Number of times the character \ should be printed
+ *
  * Return: void
  */
 

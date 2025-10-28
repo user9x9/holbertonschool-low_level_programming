@@ -31,7 +31,7 @@ void print_triangle(int size)
 		}
 
 		c = 0;
-		
+
 		while (c < a)
 		{
 			_putchar('#');

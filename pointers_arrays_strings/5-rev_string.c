@@ -11,21 +11,22 @@
 
 void rev_string(char *s)
 {
-	int a = 0;
-	int b;
+	char *a = s;
+	char *b = s;
+	char temp;
 
-	while (s[a] != '\0')
+	while (*b != '\0')
 	{
-		_putchar(s[a]);
-		a++;
+		b++;
 	}
 
-	b = a - 1;
-
-	while (b >= 0)
+	while (a < b)
 	{
-		_putchar(s[b]);
+		temp = *a;
+		*a = *b;
+		*b = temp;
+
+		a++;
 		b--;
 	}
-	_putchar('\n');
 }

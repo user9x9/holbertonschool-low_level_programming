@@ -12,13 +12,12 @@
 void print_rev(char *s)
 {
 	int a = 0;
+	int b = a - 1;
 
 	while (s[a] != '\0')
 	{
 		a++;
 	}
-
-	int b = a - 1;
 
 	while (b >= 0)
 	{

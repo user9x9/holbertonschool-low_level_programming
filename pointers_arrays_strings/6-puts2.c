@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts2 - Affiche un caractere sur deux 
+ * puts2 - Affiche un caractere sur deux
  *
  * @str: La chaine de caracteres
  *

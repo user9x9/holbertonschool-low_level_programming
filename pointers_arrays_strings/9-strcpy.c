@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _strcpy - Copie la chaine de caracteres
+ * _strcpy - copie la chaîne pointée par src dans le buffer dest
+ * @dest: le buffer où la chaîne sera copiée
+ * @src: la chaîne source à copier
  *
- * @str: la chaine de caractere a copier
- * @dest: buffer ou la chaine sera copi�e 
- *
- * Return: dest
+ * Return: le pointeur vers dest
  */
 
 char *_strcpy(char *dest, char *src)

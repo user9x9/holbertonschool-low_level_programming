@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * *_strcpy - Copie la chaine de caracteres
+ * _strcpy - Copie la chaine de caracteres
  *
  * @str: la chaine de caractere a copier
- * @dest: buffer
+ * @dest: buffer ou la chaine sera copi√e 
  *
- * Return: void
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)

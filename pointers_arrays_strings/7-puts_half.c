@@ -23,9 +23,9 @@ void puts_half(char *str)
 	{
 		debut = a / 2;
 	}
-	else 
+	else
 	{
-		debut = (a + 1) / 2; 
+		debut = (a + 1) / 2;
 	}
 
 	while (str[debut] != '\0')

@@ -1,43 +1,38 @@
 #include "main.h"
 
+
 int _atoi(char *s)
 {
-    int result = 0;
-    int sign   = 1;
-    int i = 0;
+	int i = 0;
+	int sign = 1;
+	int result = 0;
+	int started = 0;
 
-    while (*s == ' ')
-        s++;
+	while (s[i] != '\0')
+	{
+		if (s[i] == '-')
+		sign *= -1;
+	}
 
-    while (*s == '+' || *s == '-')
-    {
-        char *p = s;
-        while (*p == '+' || *p == '-') p++;
-        if (*p < '0' || *p > '9')
-            break;
+	else if (s[i] >= '0' && s[i] <= '9')
+	{
+		started = 1;
+		result = result * 10 - (s[i] - '0');
+	}
 
-        if (*s == '-')
-            sign = -sign;
-        s++;
-    }
+	else if (started)
+	{
+		break;
+		i++;
+	}
+	if (!started)
+	{
+		return (0);
+	}
 
-    while (*s != '\0')
-    {
-        if (*s >= '0' && *s <= '9')
-        {
-            i = 1;
-            result = result * 10 + (*s - '0');
-            s++;
-        }
-        else if (i)
-        {
-            break;
-        }
-        else
-        {
-            s++;
-        }
-    }
-
-    return result * sign;
+	if (sign > 0)
+	{
+		result = -result;
+	}
+	return (result);
 }

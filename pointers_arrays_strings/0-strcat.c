@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * _strcat - concatene deux chaines
+ *
+ * Return: dest
+ */
+
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
@@ -18,5 +24,5 @@ char *_strcat(char *dest, char *src)
 	}
 	dest[i] = '\0';
 
-	return dest;
+	return (dest);
 }

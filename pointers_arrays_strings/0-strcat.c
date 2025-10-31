@@ -3,6 +3,9 @@
 /**
  * _strcat - concatene deux chaines
  *
+ * @dest: the destination string where src will be appended
+ * @src: the source string that will be appended to dest
+ *
  * Return: dest
  */
 

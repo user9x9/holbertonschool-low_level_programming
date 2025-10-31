@@ -1,38 +1,34 @@
 #include "main.h"
 
-
 int _atoi(char *s)
 {
 	int i = 0;
 	int sign = 1;
 	int result = 0;
-	int started = 0;
 
-	while (s[i] != '\0')
+    
+	while (s[i] == ' ' || (s[i] >= '\t' && s[i] <= '\r'))
 	{
-		if (s[i] == '-')
-		sign *= -1;
-	}
-
-	else if (s[i] >= '0' && s[i] <= '9')
-	{
-		started = 1;
-		result = result * 10 - (s[i] - '0');
-	}
-
-	else if (started)
-	{
-		break;
 		i++;
 	}
-	if (!started)
+
+    
+	if (s[i] == '-')
 	{
-		return (0);
+		sign = -1;
+		i++;
+	}
+	else if (s[i] == '+')
+	{
+		i++;
 	}
 
-	if (sign > 0)
+    
+	while (s[i] >= '0' && s[i] <= '9')
 	{
-		result = -result;
+		result = result * 10 + (s[i] - '0');
+		i++;
 	}
-	return (result);
+
+	return result * sign;
 }

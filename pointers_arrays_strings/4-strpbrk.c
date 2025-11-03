@@ -2,11 +2,13 @@
 #include <stddef.h>
 
 /**
-* _strpbrk - Recherche la première occurrence de n'importe quel caractère de accept dans s.
+* _strpbrk - Recherche la première occurrence de n'importe quel caractère
+* de accept dans s.
 * @s: La chaîne dans laquelle chercher.
 * @accept: Les caractères à rechercher dans s.
 *
-* Return: Un pointeur vers le premier caractère de s qui correspond à un caractère de accept,
+* Return: Un pointeur vers le premier caractère de s qui correspond
+* à un caractère de accept,
 *         ou NULL si aucun caractère n'est trouvé.
 */
 

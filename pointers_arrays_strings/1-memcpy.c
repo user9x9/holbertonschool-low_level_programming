@@ -7,7 +7,7 @@
 * @src: buffer source
 * @n: nombre d'octets à copier
 *
-* Retour: un pointeur vers dest
+* Return: un pointeur vers dest
 */
 
 char *_memcpy(char *dest, char *src, unsigned int n)

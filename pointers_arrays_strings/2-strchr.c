@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* _strchr - localise la première occurrence d'un caractère dans une chaîne
+* *_strchr - localise la première occurrence d'un caractère dans une chaîne
 * @s: la chaîne dans laquelle chercher
 * @c: le caractère à trouver
 *

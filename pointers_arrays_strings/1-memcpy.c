@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+*
 * _memcpy - copie n octets de la mémoire src vers dest
 * @dest: buffer de destination
 * @src: buffer source

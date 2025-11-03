@@ -5,7 +5,7 @@
 * @s: la chaîne dans laquelle chercher
 * @c: le caractère à trouver
 *
-* Retour: un pointeur vers le premier caractère c trouvé dans s,
+* Return: un pointeur vers le premier caractère c trouvé dans s,
 *         ou NULL si le caractère n'est pas présent.
 */
 

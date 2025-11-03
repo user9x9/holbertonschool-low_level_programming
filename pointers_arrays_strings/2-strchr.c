@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
 * _strchr - localise la première occurrence d'un caractère dans une chaîne

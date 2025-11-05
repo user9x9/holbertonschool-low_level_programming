@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* prime_number - Checks recursively if n is prime
+* prime_number - Checks recursively if n is a prime number
 * @n: The number to check
 * @i: The current divisor
-* Return 1 if n is prime 0 otherwise
+* Return: 1 if n is prime 0 otherwise
 */
 
 int prime_number(int n, int i)

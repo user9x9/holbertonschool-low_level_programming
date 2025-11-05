@@ -3,9 +3,8 @@
 /**
 * _sqrt_recursion - Write a function that returns the
 * natural square root of a number
-* sqrt_helper - Recursively finds the natural square root of n
 *
-* @n: Number to compute the square root of
+* @n: Number to find the square root of
 * Return: Natural square root of n or -1 if none
 */
 
@@ -25,6 +24,14 @@ int _sqrt_recursion(int n)
 		return (sqrt_helper(n, 1));
 	}
 }
+
+/**
+* sqrt_helper - Recursively finds the natural square root of n
+* @n: Number to find the square root of
+* @i: Current candidate for the square root
+* Return: Natural square root of n or -1 if none
+*/
+
 
 int sqrt_helper(int n, int i)
 {

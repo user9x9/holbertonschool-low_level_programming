@@ -4,6 +4,7 @@
 * _sqrt_recursion - Write a function that returns the
 * natural square root of a number
 * sqrt_helper - Recursively finds the natural square root of n
+*
 * @n: Number to compute the square root of
 * Return: Natural square root of n or -1 if none
 */

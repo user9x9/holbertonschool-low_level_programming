@@ -1,18 +1,6 @@
 #include "main.h"
 
-int is_prime_number(int n)
-{
-	int i = 2;
 
-	if (n <= 1)
-	{
-		return (0);
-	}
-	else
-	{
-		return (prime_number(n, 2));
-	}
-}
 
 int prime_number(int n, int i)
 {
@@ -27,5 +15,18 @@ int prime_number(int n, int i)
 	else
 	{
 		return (prime_number(n, i + 1));
+	}
+}
+
+
+int is_prime_number(int n)
+{
+	if (n <= 1)
+	{
+		return (0);
+	}
+	else
+	{
+		return (prime_number(n, 2));
 	}
 }

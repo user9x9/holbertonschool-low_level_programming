@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
-* main - 
+* main - Program that adds positive numbers
 * @argc: The number of arguments passed to the program
 * @argv: Array of string representing the arguments
 * Return: 0 if no number is passed and 1 if the number contains

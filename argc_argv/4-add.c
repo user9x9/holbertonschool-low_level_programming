@@ -26,12 +26,12 @@ int main(int argc, char *argv[])
 		j = 0;
 		while (argv[i][j] != '\0')
 		{
+			sum = sum + atoi(argv[i]);
 			if (argv[i][j] < '0' || argv[i][j] > '9')
 			{
 				printf("Error\n");
 				return (1);
 			}
-			sum = sum + atoi(argv[i]);
 			j++;
 		}
 		i++;

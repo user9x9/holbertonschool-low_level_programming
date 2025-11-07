@@ -7,7 +7,7 @@
 * @argv: Array of string representing the arguments
 * Return: 0 if no number is passed and 1 if the number contains
 * symbols that are not digits.
-* 
+*
 */
 
 int main(int argc, char *argv[])

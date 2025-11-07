@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int i = 1;
-	int a = 0;
+	int j = 0;
 	int sum = 0;
 
 	sum = atoi(argv[i]);
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 
 	while (i < argc)
 	{
-		if (argv[i][a] < '0' || argv[i][a] > '9')
+		if (argv[i][j] < '0' || argv[i][j] > '9')
 		{
 			printf("Error\n");
 			return (1);

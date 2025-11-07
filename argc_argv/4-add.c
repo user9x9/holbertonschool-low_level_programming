@@ -12,7 +12,10 @@
 int main(int argc, char *argv[])
 {
 	int i = 1;
-    int sum = 0;
+	int a = 0;
+	int sum = 0;
+
+	sum = atoi(argv[i]);
 
 	if (argc == 1)
 	{
@@ -20,18 +23,16 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 
-    while (i < argc)
-    {
-        if (argv[i] < '0' || argv[i] > '9')
-        {
-            printf("Error\n");
-            return (1);
-        }
-        i++;
-    }
-
-
-	sum = atoi(argv[i]);
+	while (i < argc)
+	{
+		if (argv[i][a] < '0' || argv[i][a] > '9')
+		{
+			printf("Error\n");
+			return (1);
+		}
+		i++;
+		j++;
+	}
 
 	printf("%d\n", sum);
 

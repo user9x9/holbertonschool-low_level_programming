@@ -5,7 +5,8 @@
 * main - 
 * @argc: The number of arguments passed to the program
 * @argv: Array of string representing the arguments
-* Return: 
+* Return: 0 if no number is passed and 1 if the number contains
+* symbols that are not digits.
 * 
 */
 

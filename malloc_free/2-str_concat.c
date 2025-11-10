@@ -4,7 +4,6 @@
  * str_concat - Function that concatenates two strings
  * @s1: The first string to concatenate
  * @s2: The second string to concatenate
- *
  * Return: A pointer to the newly allocated memory containing the concatenated
  * string. NULL if memory allocation fails or if both strings are NULL.
  */
@@ -14,34 +13,16 @@ char *str_concat(char *s1, char *s2)
 	unsigned int i = 0, a = 0;
 	char *result;
 
-	if (s1 == NULL)
-	{
-		s1 = "";
-	}
-
-	if (s2 == NULL)
-	{
-		s2 = "";
-	}
-
 	while (s1[i] != '\0')
-	{
 		i++;
-	}
-
 
 	while (s2[a] != '\0')
-	{
 		a++;
-	}
-
 
 	result = malloc((i + a + 1) * sizeof(char));
 
 	if (result == NULL)
-	{
 		return (NULL);
-	}
 
 	i = 0;
 

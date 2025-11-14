@@ -6,16 +6,6 @@
  * @src: chaine à copier
  *
  * Return: pointeur vers la nouvelle chaîne NULL si échec
- *
- * new_dog - crée une nouvelle structure dog
- * @name: nom du chien
- * @age: age du chien
- * @owner: nom du propriétaire
- *
- * Description: alloue de la mémoire pour un nouveau chien,
- * copie les chaînes name et owner et initialise l'age.
- *
- * Return: pointeur vers le nouveau chien, NULL si échec
  */
 
 char *str_copy(char *src)
@@ -43,6 +33,18 @@ char *str_copy(char *src)
 	dest[j] = '\0';
 	return (dest);
 }
+
+/**
+ * new_dog - crée une nouvelle structure dog
+ * @name: nom du chien
+ * @age: age du chien
+ * @owner: nom du propriétaire
+ *
+ * Description: alloue de la mémoire pour un nouveau chien,
+ * copie les chaînes name et owner et initialise l'age.
+ *
+ * Return: pointeur vers le nouveau chien, NULL si échec
+*/
 
 dog_t *new_dog(char *name, float age, char *owner)
 {

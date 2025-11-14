@@ -11,6 +11,7 @@
 char *str_copy(char *src)
 {
     int i = 0;
+    int j = 0;
     char *dest;
 
     if (src == NULL)
@@ -23,12 +24,13 @@ char *str_copy(char *src)
     if (dest == NULL)
         return (NULL);
 
-    while (src[i] != '\0')
+    j = 0;
+    while (src[j] != '\0')
     {
-        dest[i] = src[i];
-        i++;
+        dest[j] = src[j];
+        j++;
     }
-    dest[i] = '\0';
+    dest[j] = '\0';
     return (dest);
     
 }

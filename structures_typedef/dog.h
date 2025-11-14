@@ -11,16 +11,16 @@
 * @owner: Nom du proprietaire du chien
 * Description: Structure qui contient les informations principales d'un chien
 */
+typedef struct dog dog_t;
 
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-} dog;
+};
 
-typedef struct dog dog_t;
-void init_dog(dog *d, char *name, float age, char *owner);
-void print_dog(struct dog *d);
+void init_dog(dog_t *d, char *name, float age, char *owner);
+void print_dog(dog_t *d);
 
 #endif

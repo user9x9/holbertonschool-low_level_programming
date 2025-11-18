@@ -3,6 +3,14 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+* get_op_func - Returns the function that corresponds to the
+* given operator
+* @s: The operator given as a parameter
+* Return: A pointer to the function that performs that operation
+* or NULL if the operator is not valid
+*/
+
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {

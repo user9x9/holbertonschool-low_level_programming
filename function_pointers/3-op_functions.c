@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* op_add - Returns the sum of a + b
+* op_add - Returns the sum of a and b
 * @a: First integer
 * @b: Second integer
 * Return: The result of a + b
@@ -13,15 +13,38 @@ int op_add(int a, int b)
 	return (a + b);
 }
 
+/**
+* op_mul - Returns the sum of a and b
+* @a: First integer
+* @b: Second integer
+* Return: The result of a * b
+*/
+
 int op_mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
 
-int op_sub(int a , int b)
+/**
+* op_sub - Returns the sum of a and b
+* @a: First integer
+* @b: Second integer
+* Return: The result of a - b
+*/
+
+int op_sub(int a, int b)
 {
 	return (a - b);
 }
+
+/**
+* op_div - Returns the sum of a and b
+* @a: First integer
+* @b: Second integer
+* Return: The result of a / b or prints Error
+* and exit if the integers are not valid
+*/
+
 
 int op_div(int a, int b)
 {
@@ -33,6 +56,14 @@ int op_div(int a, int b)
 	return (a / b);
 }
 
+/**
+* op_mod - Returns the sum of a and b
+* @a: First integer
+* @b: Second integer
+* Return: The result of a % b or prints Error
+* and exit if the integers are not valid
+*/
+
 int op_mod(int a, int b)
 {
 	if (b == 0)
@@ -40,5 +71,5 @@ int op_mod(int a, int b)
 		printf("Error\n");
 		exit(100);
 	}
-	return(a % b);
+	return (a % b);
 }
